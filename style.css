@@ -332,6 +332,7 @@ input#click {
   transform: rotateY(180deg);
   color: white;
   transform: rotateY(180deg);
+  padding: 0 20px;
 }
 
 .flip-card {
