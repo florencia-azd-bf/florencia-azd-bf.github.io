@@ -1,5 +1,5 @@
 :root {
-  --left-1-left: 7%;
+  --left-1-left: 3%;
   --left-1-right: 7%;
   --left-1-top: 10%;
 }
@@ -349,12 +349,12 @@ input#click {
 }
 
 .left-2 {
-  left: calc(var(--left-1-left) + 9%);
+  left: calc(var(--left-1-left) + 4%);
   top: calc(var(--left-1-left) + 27%);
 }
 
 .left-3 {
-  left: calc(var(--left-1-left) + 13%);
+  left: calc(var(--left-1-left) + 9%);
   top: calc(var(--left-1-left) + 53%);
 }
 
@@ -364,18 +364,18 @@ input#click {
 }
 
 .right-1 {
-  right: var(--left-1-right);
-  top: var(--left-1-left);
+  right: calc(var(--left-1-left) + 4%);
+  top: calc(var(--left-1-left) + 27%);
 }
 
 .right-2 {
-  right: calc(var(--left-1-right) + -3%);
-  top: calc(var(--left-1-left) + 33%);
+  right: calc(var(--left-1-left) + 9%);
+  top: calc(var(--left-1-left) + 53%);
 }
 
 .right-3 {
-  right: calc(var(--left-1-right) + 12%);
-    top: calc(var(--left-1-left) + 57%);
+  bottom: 5%;
+  right: 32%;
 }
 
 .right-4 {
@@ -385,12 +385,12 @@ input#click {
 
 .center {
   bottom: 5%;
-  left: 44%;
+  left: 32%;
 }
 
 .top {
-  left: 60%;
-  top: 10%;
+  right: var(--left-1-left);
+  top: var(--left-1-left);
 }
 
 .scale-up-center {
