@@ -369,13 +369,13 @@ input#click {
 }
 
 .right-2 {
-  right: calc(var(--left-1-right) + 9%);
-  top: calc(var(--left-1-left) + 27%);
+  right: calc(var(--left-1-right) + -3%);
+  top: calc(var(--left-1-left) + 33%);
 }
 
 .right-3 {
-  right: calc(var(--left-1-right) + 13%);
-  top: calc(var(--left-1-left) + 53%);
+  right: calc(var(--left-1-right) + 12%);
+    top: calc(var(--left-1-left) + 57%);
 }
 
 .right-4 {
@@ -389,8 +389,8 @@ input#click {
 }
 
 .top {
-  left: 50%;
-  top: 4%;
+  left: 60%;
+  top: 10%;
 }
 
 .scale-up-center {
